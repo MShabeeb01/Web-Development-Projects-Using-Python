@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Greeting Page</title>
+    </head>
+    <body>
+        <h1>Hello, {{name}}</h1>
+        <p>Welcome to the Flask Greeting Page.</p>
+        <a href="/">Back to Home</a>
+    </body>
+</html>
+
+<!--{{ name }} is a Jinja2 template variable (used in Flask).
+When you go to /greet/Shabeeb, Flask passes name="Shabeeb" into this template.
+So it will display: “Hello, Shabeeb”.
+If you visit /greet/Ali, it will show “Hello, Ali”.
+-->
