@@ -22,5 +22,5 @@ def greet(name):
 # Run the App
 if __name__ == '__main__':
     app.run(debug=True)
-#This checks if the file is run directly (not imported into another Python file).
+#This checks if the file is run directly.
 #app.run(debug=True) starts a development server: debug=True means it will automatically reload when you change the code and also show detailed error messages if something breaks.By default, it runs on http://127.0.0.1:5000/.    
